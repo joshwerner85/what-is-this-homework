@@ -200,8 +200,8 @@ var confusing = {
 
 // * Problem 19
 inAnObject.anotherObject.test2.apply(confusing, ['foo', 'bar']);
-// * "this" is ...
-// * because ...
+// * "this" is ... Object
+// * because ... because inAnObject = Object and confusing passed in variables a = foo and b = bar
 
 
 
